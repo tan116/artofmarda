@@ -1,12 +1,8 @@
-"use client";
+'use client'
 
-import { ThemeProvider as NextThemesProvider } from "next-themes"
-import { type ThemeProviderProps } from "next-themes";
+import { ThemeProvider as NextThemesProvider } from 'next-themes'
+import { type ThemeProviderProps } from 'next-themes'
 
 export const ThemeProvider = ({ children }: ThemeProviderProps) => {
-    return (
-        <NextThemesProvider>
-            {children}
-        </NextThemesProvider>
-    )
+    return <NextThemesProvider>{children}</NextThemesProvider>
 }
