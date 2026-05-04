@@ -1,0 +1,58 @@
+@layer base {
+  .introSection {
+    position: relative;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+        .backgroundImage {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0.1;
+            background: url(../../../public/images/background.jpg) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+
+        }
+    }
+
+    .introSectionContent {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-flow: row reverse wrap;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        padding: 2rem 0;
+        gap: 7rem;
+
+        .introTextWrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+            text-align: left;
+            justify-content: center;
+
+        }
+
+        .introFeatureImage {
+            max-height: 80vh;
+            width: auto;
+        }
+
+        .introText {
+            font-size: 1.1rem;
+            max-width: 60ch;
+            min-width: 40ch;
+        }
+    }
+}
+
+
