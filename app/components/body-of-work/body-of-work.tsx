@@ -43,8 +43,8 @@ const BodyOfWork = () => {
     ]
 
     return (
-        <div className="container mx-auto py-12">
-            <h2 className="text-5xl font-bold my-8">Body of Work</h2>
+        <div className="container mx-auto py-12 flex flex-col items-center">
+            <h2 className="text-6xl font-bold my-8">Body of Work</h2>
 
             <div className="flex flex-row flex-wrap justify-center gap-16">
                 {works.map((work, index) => (
