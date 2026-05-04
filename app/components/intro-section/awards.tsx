@@ -37,13 +37,18 @@ export const Awards = () => {
                         key={index}
                         className="flex flex-col items-center text-center p-4"
                     >
+                        {/* TODO: use different icon */}
                         <Image
                             src={trophy}
                             alt="Trophy"
                             className="w-12 h-12 mb-2"
                         />
-                        <h3 className="w-[15ch]">{award.title}</h3>
-                        <p className="text-xs w-[20ch]">{award.description}</p>
+                        <h3 className="font-semibold w-[15ch] mt-2">
+                            {award.title}
+                        </h3>
+                        <p className="text-s font-light mt-1 w-[20ch]">
+                            {award.description}
+                        </p>
                     </div>
                 ))}
             </div>

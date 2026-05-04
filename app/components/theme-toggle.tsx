@@ -27,7 +27,7 @@ export const ThemeToggle = () => {
     return (
         <button
             onClick={toggleTheme}
-            className="px-3 py-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded cursor-pointer transition duration-300"
+            className="px-3 pb-1 cursor-pointer transition duration-300"
         >
             {theme === 'light' ? (
                 <MdLightMode className="inline-block w-5 h-5" />

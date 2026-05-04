@@ -35,6 +35,7 @@
         height: 100%;
         padding: 2rem 0;
         gap: 5rem;
+        /* font-family: 'GlacialIndifference'; */
 
         .introTextWrapper {
             display: flex;

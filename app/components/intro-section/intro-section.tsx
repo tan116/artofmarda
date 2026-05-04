@@ -1,7 +1,6 @@
 'use client'
 
 import Image from 'next/image'
-import bg from '../../../public/images/background.jpg'
 import headhunter from '../../../public/images/headhunter.avif'
 import styles from './intro-section.module.css'
 import { Awards } from './awards'
@@ -24,7 +23,7 @@ export const IntroSection = () => {
                         <h4 className="text-4xl font-bold mb-4 border-b py-6">
                             The Last Headhunter
                         </h4>
-                        <p className="max-w-lg">
+                        <p className={styles.introText}>
                             Nyeiwang Wangsa&apos;s face holds the weight of a
                             fading era—one where the Konyak headhunters of
                             Nagaland were warriors, protectors, and living
