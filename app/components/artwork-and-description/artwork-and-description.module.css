@@ -1,0 +1,90 @@
+.swiperSlideImage {
+    display: block;
+    width: auto;
+    height: 75vh;
+    /* object-fit: cover; */
+}
+
+.artworkAndDescriptionContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.artworkInfoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    text-align: left;
+    /* border: 1px solid blue; */
+
+    .artworkName {
+        font-size: 2.5rem;
+        max-width: 40ch;
+    }
+
+    .divider {
+        width: 40%;
+        height: 1px;
+        background-color: #696969;
+    }
+
+    .artworkSize {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    .artworkDescription {
+        font-size: 1.1rem;
+        text-align: left;
+        max-width: 35ch;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .swiperSlideImage {
+        display: block;
+        height: 70vh;
+        object-fit: cover;
+    }
+
+    .artworkInfoContainer {
+        display: none;
+    }
+
+    .artworkAndDescriptionContainer {
+        gap: 2rem;
+        padding: 2rem;
+        /* border: 1px solid red; */
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .swiperSlideImage {
+        display: block;
+        width: 90vw;
+        height: auto;
+        /* margin-inline: 3rem; */
+        /* object-fit: cover; */
+    }
+
+    .artworkAndDescriptionContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* gap: 5rem; */
+        /* padding: 2rem; */
+        height: 85vh;
+        /* border: 1px solid red; */
+        /* border: 1px solid red; */
+    }
+
+    .artworkInfoContainer {
+        display: none;
+    }
+}

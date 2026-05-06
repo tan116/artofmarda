@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import headhunter from '../../../public/images/headhunter.avif'
+import headhunter from '../../../public/images/headhunter.png'
 import styles from './intro-section.module.css'
 import { Awards } from './awards'
 

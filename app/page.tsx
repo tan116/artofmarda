@@ -1,13 +1,11 @@
 import AboutTheArtist from './components/body-of-work/about-the-artist'
 import BodyOfWork from './components/body-of-work/body-of-work'
 import { IntroSection } from './components/intro-section/intro-section'
-import { NavBar } from './components/nav-bar'
 
 const HomePage = () => {
     console.log('Rendering HomePage')
     return (
         <div className="flex flex-col items-center min-h-screen">
-            <NavBar />
             <IntroSection />
             <BodyOfWork />
             <AboutTheArtist />
